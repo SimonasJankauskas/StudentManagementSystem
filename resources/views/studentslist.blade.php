@@ -7,7 +7,7 @@
       <table class="table">
         <thead class="thead-light">
           <tr>
-            <th scope="col">CNE</th>
+            <th scope="col">Student Nr.</th>
             <th scope="col">First Name</th>
             <th scope="col">Second Name</th>
             <th scope="col">Age</th>
@@ -27,7 +27,7 @@
                     <td>{{ $student->speciality }}</td>
                     @if (auth()->check()) 
                     <td>                       
-                    <a href="{{ url('/edit/'.$student->id) }}" class="btn btn-sm btn-warning">Edit</a>
+                    <a href="{{ url('/edit/'.$student->id) }}" class="btn btn-sm btn-primary">Edit</a>
                     <a href="{{ url('/delete/'. $student->id) }}" class="btn btn-sm btn-danger">Delete</a>                     
                     </td>
                     @endif   

@@ -1,0 +1,86 @@
+
+.header {
+    border-bottom: 2px solid rgb(193, 150, 44) !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    font-size: 20px !important;
+}
+.header-container {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+.bg-light {
+
+    background: rgb(193, 150, 44) !important;
+    -webkit-box-shadow: 5px 9px 43px 1px rgba(0,0,0,0.18); 
+	box-shadow: 5px 9px 43px 1px rgba(0,0,0,0.18);
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+}
+.bg-light > a {
+    color: #fff !important;
+}
+.navbar-nav > a {
+    color: #fff !important;
+}
+.navbar-brand {
+    color: #fff !important;
+}
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.dropdown-item {
+    background: rgb(193, 150, 44) !important;
+    color: #fff !important;
+}
+.dropdown-menu {
+    background: rgb(193, 150, 44) !important;
+}
+.nav-link {
+    color: #fff !important;
+}
+body {
+    background : #eee ;
+}
+.card {
+    border : none !important;
+    border-bottom: 3px solid rgb(193, 150, 44) !important;
+}
+input[type=text] {
+
+    background : #eee ;
+    border: none !important;
+    box-shadow: 0px 1px 1px #ddd !important;
+}
+input[type=text]:focus{
+    background : #eee ;
+    border: none !important;
+    box-shadow: 0px 4px 5px #ccc !important;
+}
+
+.table .thead-light th {
+    color : #fff !important;
+    background: rgb(193, 150, 44) !important;
+    border: none !important;
+}
+footer {
+    height: 10px;
+    width: 100%;
+    margin-top: 60px;
+    background:rgb(193, 150, 44) !important
+}

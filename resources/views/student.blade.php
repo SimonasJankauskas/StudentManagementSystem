@@ -8,7 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-  <link rel="stylesheet" href="{{asset  ('css/style.css')}}">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <title>Student Management System</title>
   </head>
   <body>
@@ -44,8 +44,8 @@
                       <form action="{{ url('/store') }}" method="POST">
                         @csrf
                             <div class="form-group">
-                              <label>CNE</label>
-                              <input name="cne" type="text" class="form-control" placeholder="Enter CNE">
+                              <label>Student Nr.</label>
+                              <input name="cne" type="text" class="form-control" placeholder="Enter Student Nr.">
                             </div>
                             <div class="form-group">
                               <label>First Name</label>
@@ -63,8 +63,8 @@
                               <label>Speciality</label>
                               <input name="speciality" type="text" class="form-control" placeholder="Enter Speciality">
                             </div>
-                            <input type="submit" class="btn btn-info" value="Save">
-                            <input type="reset" class="btn btn-warning" value="Reset">                 
+                            <input type="submit" class="btn btn-sm btn-primary" value="Save">
+                            <input type="reset" class="btn btn-sm btn-warning" value="Reset">                 
                           </form>
                     </div>
                   </div>            
@@ -95,8 +95,8 @@
                 <form action="{{ url('/update/'.$student->id) }}" method="POST">
                     @csrf
                         <div class="form-group">
-                          <label>CNE</label>
-                        <input value="{{ $student->cne }}" name="cne" type="text" class="form-control" placeholder="Enter CNE">
+                          <label>Student Nr.</label>
+                        <input value="{{ $student->cne }}" name="cne" type="text" class="form-control" placeholder="Enter Student Nr.">
                         </div>
                         <div class="form-group">
                           <label>First Name</label>
@@ -114,8 +114,8 @@
                           <label>Speciality</label>
                           <input value="{{ $student->speciality }}" name="speciality" type="text" class="form-control" placeholder="Enter Speciality">
                         </div>
-                        <input type="submit" class="btn btn-info" value="Update">
-                        <input type="reset" class="btn btn-warning" value="Reset">                 
+                        <input type="submit" class="btn btn-sm btn-primary" value="Update">
+                        <input type="reset" class="btn btn-sm btn-warning" value="Reset">                 
                       </form>
                     </div>
                   </div>
