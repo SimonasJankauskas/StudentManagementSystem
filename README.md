@@ -8,7 +8,7 @@ This is simple CRUD Student Management System application.
 - Download composer https://getcomposer.org/download/
 - Pull Laravel/php project from git repository
 - Rename .env.example file to .env inside your project root (youd can rename it with this line: ```cp .env.example .env```)
-- Edit these .env file parameters (```DB_USERNAME, DB_PASSWORD```)
+- Edit these .env file parameters (```DB_NAME (sms), DB_USERNAME, DB_PASSWORD```)
 - Open the console and cd your project root directory
 - Run ```composer install``` or ```php composer.phar install```
 - Run ```php artisan key:generate```
