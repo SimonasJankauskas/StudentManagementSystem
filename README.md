@@ -1,4 +1,4 @@
-## Student Management System
+## Student Management System (Laravel)
 
 This is simple CRUD Student Management System application.
 
